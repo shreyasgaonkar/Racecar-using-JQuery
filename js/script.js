@@ -76,7 +76,7 @@ $('#go').click(function() {
         winner = 'Car 2';
       }
 
-    $('#result').delay(maxValue+250).queue(function(){
+    $('#result').delay(maxValue + 250).queue(function(){
       $('#result').text('Race won by ' + winner + ' with the time difference of  ' + difference + ' milliseconds');
     });
 
